@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Battle 2.0</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Loader -->
+<div class="loader" id="loader">
+    <video src="assets/loader.mp4" autoplay muted loop></video>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="#home" class="logo">Frontend Battle</a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#stats">Stats</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><button id="themeToggle">🌙</button></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero-section">
+    <video src="assets/homepage.mp4" autoplay muted loop class="hero-bg"></video>
+    <div class="hero-content">
+        <h1>Frontend Battle 2.0</h1>
+        <p>Pixel-perfect meets creativity.</p>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section id="features" class="section">
+    <h2>Features Overview</h2>
+    <video src="assets/features.mp4" controls></video>
+</section>
+
+<!-- Stats Section -->
+<section id="stats" class="section">
+    <h2>Statistics</h2>
+    <img src="assets/stats.png" alt="Statistics Overview" class="responsive-img" />
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery" class="section">
+    <h2>Gallery & Animations</h2>
+    <div class="gallery">
+        <video src="assets/scroll-pop-up.mp4" controls></video>
+        <video src="assets/parallax.mp4" controls></video>
+        <video src="assets/carousel.mp4" controls></video>
+        <img src="assets/graph.png" alt="Graph Overview" class="responsive-img" />
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer class="footer">
+    <p>&copy; 2025 Frontend Battle. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
